@@ -1,0 +1,108 @@
+@charset "utf-8";
+.example {
+  padding: 20px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+	/* carousel  caption*/
+.carousel-caption {
+    position: absolute;
+    right: 70%;
+    bottom: 30%;
+    left: 8%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px !important;
+    color: #fff;
+     text-align: left !important; 
+}
+	#intro .intro-info .btn-get-started, #intro .intro-info .btn-services {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    /* background: #1bb1dc; */
+    background: #e42424;
+}
+		#intro .intro-info h2 {
+    color: #000;
+    margin-bottom: 40px;
+    font-size: 13px;
+    font-weight: 700;
+}
+	.c_mt_3{vertical-align: middle;
+	height: 75px;
+	width: 20%;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+	
+	.c_mt_3{vertical-align: middle;
+	height: 160px;
+	width: 20%;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+	
+/* carousel  caption*/
+.carousel-caption {
+    position: absolute;
+    right: 70%;
+    bottom: 30%;
+    left: 8%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px !important;
+    color: #fff;
+     text-align: left !important; 
+}
+#intro .intro-info h2 {
+/*  color: #413e66;*/
+  color: #000;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 700;
+}
+}
+/* Extra large devices (large laptops and desktops, 1366px and up) */
+@media only screen and (min-width: 1366px) {
+  .example {background: black;}
+	/* carousel  caption*/
+.c_mt_1{
+	vertical-align: middle;
+	height: 400px;
+	width: 24%;
+	}
+	
+.c_mt_2{	vertical-align: middle;
+	height: 300px;
+	width: 20%;}
+	
+.c_mt_3{	vertical-align: middle;
+	height: 200px;
+	width: 20%;}
+	
+}
+
